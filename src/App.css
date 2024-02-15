@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows boxes to wrap to the next line */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  /* background-color: #ccc; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 45 px;
+  background-color: hsl(235.71deg 71.01% 72.94%);
+}
+ .p{
+  font-size: 44px;
+  text-align: center;
+}
+.buttonset{
+  display: flex;
+  gap: 20px; 
+}
+
+.bt{
+  background-color: hsl(243.33deg 19.15% 18.43%);
+}
+.button{
+  background-color: hsl(236.17deg 74.6% 75.29%);
+}
